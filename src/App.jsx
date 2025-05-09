@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <h1>🦎 LiQuote  | Random Quote</h1>
+      <h1>🦎 LiQuote | Random Quote</h1>
 
       {loading ? <p>{loadingText}</p> : (
         <div className="quote-box">
